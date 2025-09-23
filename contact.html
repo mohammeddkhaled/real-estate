@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="output.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body class="bg-[#F8F4F0] p-16 pt-12 font-display">
+    <div id="first" class="fixed top-80 right-0">
+      <div class="w-30 bg-blue-600 text-white flex items-center">
+        <div class="w-10">
+          <img width="full" src="images/cart.svg" alt="" />
+        </div>
+        Buy Now
+      </div>
+      <div class="mt-5 w-30 bg-white text-black flex items-center">
+        <div class="w-10">
+          <img width="full" src="images/palette.svg" alt="" />
+        </div>
+        Customize
+      </div>
+    </div>
+    <!-- hero-->
+    <div
+      class="bg-[url('images/services-hero.png')] w-full p-10 pt-10 flex flex-col bg-cover rounded-3xl overflow-hidden text-white"
+    >
+      <!-- nav -->
+      <div class="flex justify-between align-center">
+        <div><img src="images/logo.png" alt="" /></div>
+        <div class="hidden lg:flex lg:flex-row lg:gap-10 font-bold">
+          <a href="index.html" class="hover:text-[#34A0A4]">Home</a>
+          <a href="about.html" class="hover:text-[#34A0A4]">About</a>
+          <a href="services.html" class="hover:text-[#34A0A4]">Services</a>
+          <a href="contact.html" class="hover:text-[#34A0A4]">Contact</a>
+        </div>
+
+        <div class="lg:gap-5 hidden lg:flex lg:flex-row">
+          <div class="w-6 bg-none text-blue">
+            <img src="images/twitter.svg" alt="" width="full" />
+          </div>
+          <div class="w-6 bg-none text-blue">
+            <img src="images/youtube.svg" alt="" width="full" />
+          </div>
+          <div class="w-6 bg-none text-blue">
+            <img src="images/youtube.svg" alt="" width="full" />
+          </div>
+          <div class="w-6">
+            <img class="text-black" src="images/search.svg" alt="" />
+          </div>
+        </div>
+        <div class="block lg:hidden bg-[#34A0A4] w-10 h-10"></div>
+      </div>
+      <!-- content -->
+      <div class="text-center">
+        <p class="text-3xl font-medium mt-24">Contact Us</p>
+        <h1 class="text-5xl font-bold mt-16 md:text-6xl lg:text-8xl">
+          We’re Just a Phone Call or Message Away
+        </h1>
+        <button
+          class="bg-[#34A0A4] hover:bg-[#0B788B] px-8 py-4 rounded-4xl mt-20 mb-32 sm:text-3xl"
+        >
+          START SEARCHING
+        </button>
+      </div>
+    </div>
+    
+    <!-- count form -->
+    <div
+      class="bg-[url('images/contact-bg.png')] w-full h-200 cover rounded-3xl mt-20 flex items-center justify-center p-10 pb-20"
+    >
+      <form action="" class="bg-white rounded-3xl w-250 h-full py-10 px-16">
+        <div class="flex flex-col items-center">
+          <p class="py-8">CONTACT US</p>
+          <p class="text-4xl">Schedule an Appointment</p>
+          <div class="w-12 border-b-2 text-[#34A0A4] my-8"></div>
+        </div>
+
+        <div>
+          <p class="font-[600]">Name</p>
+          <input
+            class="w-full border-b-2 focus:outline-none mb-5"
+            type="text"
+          />
+          <p class="font-[600]">Email</p>
+          <input
+            class="w-full border-b-2 focus:outline-none mb-5"
+            type="email"
+          />
+          <p class="font-[600]">Message</p>
+          <textarea
+            class="w-full border-b-2 focus:outline-none mb-5"
+            name=""
+            id=""
+          ></textarea>
+        </div>
+
+        <div class="w-full flex flex-col items-center">
+          <button
+            class="py-4 px-7 bg-[#34A0A4] hover:bg-[#0B788B] rounded-4xl text-[16px] text-white my-10"
+          >
+            REQUEST A CALL BACK
+          </button>
+        </div>
+      </form>
+    </div>
+    <!-- footer -->
+    <div
+      class="mt-20 xl:flex lg:gao-30 gap-20 w-full pb-20 border-b border-gray-400"
+    >
+      <!--  -->
+      <div class="md:flex gap-50">
+        <div class="w-60 md:w-100 mr-auto mt-4">
+          <img width="full" src="images/footer-logo.png" alt="" />
+        </div>
+
+        <div class="flex flex-col items-center md:block">
+          <p class="text-2xl font-[400] my-8">About Us</p>
+          <p class="text-[18px] text-gray-600">
+            At Real Estate, we pride ourselves on being a trusted and reputable
+            name in the real estate industry with years of experience.
+          </p>
+        </div>
+      </div>
+
+      <div class="md:flex gap-10 lg:mt-10 xl:mt-0">
+        <div class="flex flex-col items-center md:block">
+          <p class="text-2xl font-[400] my-8">contact info</p>
+          <p class="text-[18px] text-[#34A0A4] font-[600]">
+            <a href="" class="hover:text-[#0B788B]"
+              >13,Fifthe Avenue,New York, NY 101660</a
+            ><br />
+            <a href="" class="hover:text-[#0B788B]">contact@info.com </a><br />
+            <a href="" class="hover:text-[#0B788B]"> 555-345-4599</a>
+          </p>
+        </div>
+
+        <div class="flex flex-col items-center md:block">
+          <p class="text-2xl font-[400] my-8">property search</p>
+          <p class="text-[18px] text-gray-600">
+            Lorem ipsum dolor sit amet, consectetur elit. Donec faucibus, quam
+            sed.
+          </p>
+          <div class="bg-white w-50 mt-12 border-red-1 text-[20px] px-2">
+            <input type="text" placeholder="Search Properties" />
+          </div>
+          <div
+            class="bg-[#34A0A4] hover:bg-[#0B788B] w-15 px-4 py-2 rounded-4xl text-4xl"
+          >
+            <img width="full" src="images/search.svg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!--  -->
+
+    <div
+      class="flex flex-col items-center md:flex md:justify-between md:flex-row"
+    >
+      <div class="pb-10 md:text-[20px] text-[12px]">
+        <p>Copyright © 2025 Real Estate Company</p>
+      </div>
+
+      <div class="flex">
+        <div class="w-6 mr-4">
+          <img width="full" src="images/twitter.svg" alt="" />
+        </div>
+        <div class="w-6 mr-4">
+          <img width="full" src="images/youtube.svg" alt="" />
+        </div>
+        <div class="w-6 mr-4">
+          <img width="full" src="images/twitter.svg" alt="" />
+        </div>
+        <div class="w-6 mr-4">
+          <img width="full" src="images/youtube.svg" alt="" />
+        </div>
+      </div>
+    </div>
+
+    <div
+      class="w-8 h-8 bg-[#34A0A4] fixed bottom-10 right-10 flex items-center justify-center"
+    >
+      <a href="#first">UP</a>
+    </div>
+  </body>
+</html>
