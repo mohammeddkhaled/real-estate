@@ -11,8 +11,14 @@
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body class="bg-[#F8F4F0] p-8 sm:p-16 font-display">
+    <div id="top"></div>
     <div id="first" class="fixed top-80 right-0">
       <div class="w-30 bg-blue-600 text-white flex items-center">
         <div class="w-10">
@@ -60,7 +66,9 @@
       <!-- content -->
       <div class="text-center">
         <p class="text-3xl font-medium mt-20">Services</p>
-        <h1 class="text-2xl sm:text-3xl  font-bold mt-16 md:text-6xl lg:text-8xl">
+        <h1
+          class="text-2xl sm:text-3xl font-bold mt-16 md:text-6xl lg:text-8xl"
+        >
           Services We offer a wide Range of Services
         </h1>
         <button
@@ -100,7 +108,7 @@
         <div class="w-12 border-b-2 text-[#34A0A4] my-10"></div>
 
         <div>
-          <p class="text-gray-500 font-medium  text-[12px] sm:text-[16px]">
+          <p class="text-gray-500 font-medium text-[12px] sm:text-[16px]">
             Looking to buy or sell a property? Look no further. Real Estate
             offers a wide range of properties for sale, matching you with your
             dream home or investment. Trust our experienced team to guide you
@@ -121,7 +129,7 @@
       <!--  -->
       <div>
         <p class="text-[#34A0A4] mt-10">03</p>
-        <h3 class=" text-2xl sm;text-3xl font-[450] mt-10">Property Sales</h3>
+        <h3 class="text-2xl sm;text-3xl font-[450] mt-10">Property Sales</h3>
         <div class="w-12 border-b-2 text-[#34A0A4] my-10"></div>
 
         <div>
@@ -139,11 +147,11 @@
       <!--  -->
       <div>
         <p class="text-[#34A0A4]">04</p>
-        <h3 class=" text-2xl sm:text-3xl font-[450] mt-10">Property Sales</h3>
+        <h3 class="text-2xl sm:text-3xl font-[450] mt-10">Property Sales</h3>
         <div class="w-12 border-b-2 text-[#34A0A4] my-10"></div>
 
         <div>
-          <p class="text-gray-500 font-medium text-[12px] sm:text-[16px] ">
+          <p class="text-gray-500 font-medium text-[12px] sm:text-[16px]">
             Looking to buy or sell a property? Look no further. Real Estate
             offers a wide range of properties for sale, matching you with your
             dream home or investment. Trust our experienced team to guide you
@@ -159,10 +167,12 @@
     <div
       class="bg-[url('images/contact-bg.png')] w-full h-200 cover rounded-3xl mt-20 flex items-center justify-center p-10 pb-20"
     >
-      <form action="" class="bg-white rounded-3xl  h-full py-10 px-8 sm:px-16">
+      <form action="" class="bg-white rounded-3xl h-full py-10 px-8 sm:px-16">
         <div class="flex flex-col items-center">
           <p class="py-8">CONTACT US</p>
-          <p class="text-2xl md:text-4xl lg:text-5xl">Schedule an Appointment</p>
+          <p class="text-2xl md:text-4xl lg:text-5xl">
+            Schedule an Appointment
+          </p>
           <div class="w-12 border-b-2 text-[#34A0A4] my-8"></div>
         </div>
 
@@ -267,10 +277,10 @@
       </div>
     </div>
 
-    <div
+    <button
       class="w-8 h-8 bg-[#34A0A4] fixed bottom-10 right-10 flex items-center justify-center"
     >
-      <a href="#first">UP</a>
-    </div>
+      <a href="#top">UP</a>
+    </button>
   </body>
 </html>

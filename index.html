@@ -11,9 +11,15 @@
       href="https://fonts.googleapis.com/css2?family=League+Spartan:wght@100..900&display=swap"
       rel="stylesheet"
     />
+    <style>
+      html {
+        scroll-behavior: smooth;
+      }
+    </style>
   </head>
   <body class="bg-[#F8F4F0] p-8 sm:p-16 font-display">
-    <div  id="first" class="fixed top-80 right-0">
+    <div id="top"></div>
+    <div class="fixed top-80 right-0">
       <div class="w-30 bg-blue-600 text-white flex items-center">
         <div class="w-10">
           <img width="full" src="images/cart.svg" alt="" />
@@ -29,19 +35,19 @@
     </div>
     <!-- hero-->
     <div
-      class=" bg-[url('images/hero.png')] bg-black/40 bg-blend-overlay w-full p-10 pt-10 flex flex-col bg-cover rounded-3xl overflow-hidden text-white"
+      class="bg-[url('images/hero.png')] bg-black/40 bg-blend-overlay w-full p-10 pt-10 flex flex-col bg-cover rounded-3xl overflow-hidden text-white"
     >
       <!-- nav -->
-      <div class="flex justify-between align-center ">
+      <div class="flex justify-between align-center">
         <div><img src="images/logo.png" alt="" /></div>
-        <div class="hidden  md:flex  md:flex-row gap-10 font-bold">
+        <div class="hidden md:flex md:flex-row gap-10 font-bold">
           <a href="index.html" class="hover:text-[#34A0A4]">Home</a>
           <a href="about.html" class="hover:text-[#34A0A4]">About</a>
           <a href="services.html" class="hover:text-[#34A0A4]">Services</a>
-          <a  href="contact.html" class="hover:text-[#34A0A4]">Contact</a>
+          <a href="contact.html" class="hover:text-[#34A0A4]">Contact</a>
         </div>
 
-        <div class="md:gap-5 hidden  md:flex md:flex-col lg:flex-row ">
+        <div class="md:gap-5 hidden md:flex md:flex-col lg:flex-row">
           <div class="w-6 bg-none text-blue">
             <img src="images/twitter.svg" alt="" width="full" />
           </div>
@@ -59,11 +65,13 @@
       </div>
       <!-- content -->
       <div class="text-center">
-        <p class="   md:text-4xl font-medium mt-24">
-           Discover Your Dream Home with Us
+        <p class="md:text-4xl font-medium mt-24">
+          Discover Your Dream Home with Us
         </p>
-        <h1 class=" text-2xl sm:text-3xl font-bold mt-16 md:text-6xl lg:text-8xl">
-         Find the Perfect Property for Your Lifestyle
+        <h1
+          class="text-2xl sm:text-3xl font-bold mt-16 md:text-6xl lg:text-8xl"
+        >
+          Find the Perfect Property for Your Lifestyle
         </h1>
         <button
           class="bg-[#34A0A4] hover:bg-[#0B788B] px-8 py-4 rounded-4xl mt-20 mb-32 sm:text-3xl"
@@ -76,8 +84,11 @@
     <div class="p-16 pb-36 mt-20 bg-white rounded-3xl">
       <div class="flex flex-col items-center">
         <p class="text-3xl sm:text-6xl font-normal mb-8">What We Do</p>
-        <p class=" text-[12px] sm:text-[20px] text-gray-500 pb-16  flex text-center ">
-          Simplifying the journey of buying, selling, and renting properties. <br>
+        <p
+          class="text-[12px] sm:text-[20px] text-gray-500 pb-16 flex text-center"
+        >
+          Simplifying the journey of buying, selling, and renting properties.
+          <br />
           Our expert team provides comprehensive real estate solutions tailored
           to your needs
         </p>
@@ -89,7 +100,9 @@
         <div class="md:flex gap-10">
           <div>
             <span class="mt-10 text-[#34A0A4]">01</span>
-            <p class="my-4 font-medium text-[20px] md:text-2xl">Property Sales</p>
+            <p class="my-4 font-medium text-[20px] md:text-2xl">
+              Property Sales
+            </p>
             <p class="text-[12px] sm:text-[20px] text-gray-500">
               Find your dream home with Real Estate - our expert team will guide
               you through the process and ensure a smooth transaction.
@@ -97,7 +110,9 @@
           </div>
           <div>
             <span class="mt-10 text-[#34A0A4]">02</span>
-            <p class="my-4 font-medium text-[20px] md:text-2xl">Property Rentals</p>
+            <p class="my-4 font-medium text-[20px] md:text-2xl">
+              Property Rentals
+            </p>
             <p class="text-[12px] sm:text-[20px] text-gray-500">
               Find your dream rental property with Real Estate, offering a
               variety of options to suit your needs and preferences.
@@ -108,7 +123,9 @@
         <div class="md:flex gap-10">
           <div>
             <span class="mt-10 text-[#34A0A4]">03</span>
-            <p class="my-4 font-medium text-[20px] md:text-2xl">Property Management</p>
+            <p class="my-4 font-medium text-[20px] md:text-2xl">
+              Property Management
+            </p>
             <p class="text-[12px] sm:text-[20px] text-gray-500">
               Trust Real Estate to handle the day-to-day management of your
               property, maximizing its value and minimizing your stress.
@@ -116,8 +133,10 @@
           </div>
           <div>
             <span class="mt-10 text-[#34A0A4]">04</span>
-            <p class="my-4 font-medium text-[20px] md:text-2xl">Lucrative Investments</p>
-            <p class=" text-[12px] sm:text-[20px] text-gray-500">
+            <p class="my-4 font-medium text-[20px] md:text-2xl">
+              Lucrative Investments
+            </p>
+            <p class="text-[12px] sm:text-[20px] text-gray-500">
               Real Estate presents lucrative investment opportunities in the
               real estate market, providing high returns on investments.
             </p>
@@ -130,9 +149,11 @@
       <!--  -->
       <div class="flex flex-col items-center">
         <p class="font-normal text-4xl md:text-6xl p-10">Featured Properties</p>
-        <p class="text-[18px] md:text-[24px] text-gray-600 pb-16  flex text-center  ">
+        <p
+          class="text-[18px] md:text-[24px] text-gray-600 pb-16 flex text-center"
+        >
           Discover our hand-picked selection of top-notch properties with
-          outstanding features, <br>
+          outstanding features, <br />
           guaranteed to meet your real estate needs and exceed your
           expectations.
         </p>
@@ -142,7 +163,7 @@
       <div class="md:flex gap-10 lg:gap-16">
         <!--  -->
         <div class="flex flex-col">
-          <div class="m-auto  rounded-3xl overflow-hidden my-10">
+          <div class="m-auto rounded-3xl overflow-hidden my-10">
             <img width="full" src="images/hero.png" alt="" />
           </div>
 
@@ -158,7 +179,7 @@
         </div>
         <!--  -->
         <div class="flex flex-col">
-          <div class="m-auto  md:w-auto rounded-3xl overflow-hidden my-10">
+          <div class="m-auto md:w-auto rounded-3xl overflow-hidden my-10">
             <img width="full" src="images/hero.png" alt="" />
           </div>
 
@@ -169,12 +190,12 @@
               Discover the epitome of contemporary living in our sleek and chic
               modern stylish apartments.
             </p>
-            <span class="font-bold text-[#0B787C] text-[20px] ">$150.00</span>
+            <span class="font-bold text-[#0B787C] text-[20px]">$150.00</span>
           </div>
         </div>
         <!--  -->
         <div class="flex flex-col">
-          <div class="m-auto  md:w-auto rounded-3xl overflow-hidden my-10">
+          <div class="m-auto md:w-auto rounded-3xl overflow-hidden my-10">
             <img width="full" src="images/hero.png" alt="" />
           </div>
 
@@ -185,7 +206,7 @@
               Discover the epitome of contemporary living in our sleek and chic
               modern stylish apartments.
             </p>
-            <span class="font-bold text-[#0B787C] text-[20px] ">$150.00</span>
+            <span class="font-bold text-[#0B787C] text-[20px]">$150.00</span>
           </div>
         </div>
       </div>
@@ -235,7 +256,9 @@
               convallis sapien, quis vestibulum libero tellus quis nisl.”
             </p>
           </div>
-          <p class="py-6 text-[#0B787C] text-[12px] sm:text-[20px]">James Oliver</p>
+          <p class="py-6 text-[#0B787C] text-[12px] sm:text-[20px]">
+            James Oliver
+          </p>
         </div>
         <!--  -->
         <div class="border-[0.5px] border-gray-300 rounded-2xl p-6 mt-12">
@@ -243,14 +266,16 @@
             <img width="full" src="images/rating.png" alt="" />
           </div>
           <div>
-            <p class=" text-[12px] sm:text-[18px]">
+            <p class="text-[12px] sm:text-[18px]">
               “Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris
               id convallis neque. Nam scelerisque placerat orci. Maecenas at
               pulvinar dui. In fermentum, lectus sed tincidunt ornare, arcu ex
               convallis sapien, quis vestibulum libero tellus quis nisl.”
             </p>
           </div>
-          <p class="py-6 text-[#0B787C] text-[12px] sm:text-[20px]">James Oliver</p>
+          <p class="py-6 text-[#0B787C] text-[12px] sm:text-[20px]">
+            James Oliver
+          </p>
         </div>
       </div>
     </div>
@@ -261,7 +286,7 @@
       </div>
       <!--  -->
       <div>
-        <h3 class=" text-2xl sm:text-3xl md:text-5xl font-[450] mt-30">
+        <h3 class="text-2xl sm:text-3xl md:text-5xl font-[450] mt-30">
           Connecting people with perfect homes is our passion.
         </h3>
         <div class="w-12 border-b-2 text-[#34A0A4] my-10"></div>
@@ -275,7 +300,7 @@
         </div>
         <div>
           <button
-            class="py-4 px-7  bg-[#34A0A4] hover:bg-[#0B788B] rounded-4xl  text-[16px] sm:text-[20px] text-white my-10"
+            class="py-4 px-7 bg-[#34A0A4] hover:bg-[#0B788B] rounded-4xl text-[16px] sm:text-[20px] text-white my-10"
           >
             READ MORE
           </button>
@@ -286,10 +311,12 @@
     <div
       class="bg-[url('images/contact-bg.png')] w-full h-200 cover rounded-3xl mt-20 flex items-center justify-center p-10 pb-20"
     >
-      <form action="" class="bg-white rounded-3xl  h-full py-10 px-8 sm:px-16">
+      <form action="" class="bg-white rounded-3xl h-full py-10 px-8 sm:px-16">
         <div class="flex flex-col items-center">
           <p class="py-8">CONTACT US</p>
-          <p class="text-2xl md:text-4xl lg:text-5xl">Schedule an Appointment</p>
+          <p class="text-2xl md:text-4xl lg:text-5xl">
+            Schedule an Appointment
+          </p>
           <div class="w-12 border-b-2 text-[#34A0A4] my-8"></div>
         </div>
 
@@ -322,57 +349,82 @@
       </form>
     </div>
     <!-- footer -->
-    <div class="mt-20 xl:flex lg:gao-30  gap-20 w-full pb-20 border-b  border-gray-400 ">
+    <div
+      class="mt-20 xl:flex lg:gao-30 gap-20 w-full pb-20 border-b border-gray-400"
+    >
       <!--  -->
-      <div class="md:flex gap-50 ">
-        <div class="w-60 md:w-100 mr-auto mt-4 ">
+      <div class="md:flex gap-50">
+        <div class="w-60 md:w-100 mr-auto mt-4">
           <img width="full" src="images/footer-logo.png" alt="" />
         </div>
 
-        <div class="flex flex-col items-center md:block ">
+        <div class="flex flex-col items-center md:block">
           <p class="text-2xl font-[400] my-8">About Us</p>
-          <p class="text-[18px] text-gray-600 ">
+          <p class="text-[18px] text-gray-600">
             At Real Estate, we pride ourselves on being a trusted and reputable
             name in the real estate industry with years of experience.
           </p>
         </div>
       </div>
 
-      <div class="md:flex gap-10 lg:mt-10 xl:mt-0 ">
-
-        <div class="flex flex-col items-center md:block ">
+      <div class="md:flex gap-10 lg:mt-10 xl:mt-0">
+        <div class="flex flex-col items-center md:block">
           <p class="text-2xl font-[400] my-8">contact info</p>
-          <p  class="text-[18px] text-[#34A0A4] font-[600] ">
-            <a href="" class="hover:text-[#0B788B]">13,Fifthe Avenue,New York, NY 101660</a><br>
-            <a href="" class="hover:text-[#0B788B]">contact@info.com </a><br>
+          <p class="text-[18px] text-[#34A0A4] font-[600]">
+            <a href="" class="hover:text-[#0B788B]"
+              >13,Fifthe Avenue,New York, NY 101660</a
+            ><br />
+            <a href="" class="hover:text-[#0B788B]">contact@info.com </a><br />
             <a href="" class="hover:text-[#0B788B]"> 555-345-4599</a>
           </p>
         </div>
 
-        <div class="flex flex-col items-center md:block ">
+        <div class="flex flex-col items-center md:block">
           <p class="text-2xl font-[400] my-8">property search</p>
-          <p  class="text-[18px] text-gray-600 ">
+          <p class="text-[18px] text-gray-600">
             Lorem ipsum dolor sit amet, consectetur elit. Donec faucibus, quam
             sed.
           </p>
-          <div class="bg-white w-50 mt-12 border-red-1 text-[20px] px-2" ><input type="text" placeholder="Search Properties"/></div>
-          <div class=" bg-[#34A0A4] hover:bg-[#0B788B] w-15 px-4 py-2 rounded-4xl text-4xl"><img width="full" src="images/search.svg" alt=""></div>
+          <div class="bg-white w-50 mt-12 border-red-1 text-[20px] px-2">
+            <input type="text" placeholder="Search Properties" />
+          </div>
+          <div
+            class="bg-[#34A0A4] hover:bg-[#0B788B] w-15 px-4 py-2 rounded-4xl text-4xl"
+          >
+            <img width="full" src="images/search.svg" alt="" />
+          </div>
         </div>
       </div>
     </div>
     <!--  -->
 
-    <div class="flex flex-col items-center md:flex md:justify-between md:flex-row ">
-      <div class="pb-10 md:text-[20px] text-[12px]"><p>Copyright © 2025 Real Estate Company</p></div>
+    <div
+      class="flex flex-col items-center md:flex md:justify-between md:flex-row"
+    >
+      <div class="pb-10 md:text-[20px] text-[12px]">
+        <p>Copyright © 2025 Real Estate Company</p>
+      </div>
 
       <div class="flex">
-       <div class="w-6 mr-4"> <img width="full" src="images/twitter.svg" alt=""></div>
-       <div class="w-6 mr-4"> <img width="full" src="images/youtube.svg" alt=""></div>
-       <div class="w-6 mr-4"> <img width="full" src="images/twitter.svg" alt=""></div>
-       <div class="w-6 mr-4"> <img width="full" src="images/youtube.svg" alt=""></div>
+        <div class="w-6 mr-4">
+          <img width="full" src="images/twitter.svg" alt="" />
+        </div>
+        <div class="w-6 mr-4">
+          <img width="full" src="images/youtube.svg" alt="" />
+        </div>
+        <div class="w-6 mr-4">
+          <img width="full" src="images/twitter.svg" alt="" />
+        </div>
+        <div class="w-6 mr-4">
+          <img width="full" src="images/youtube.svg" alt="" />
+        </div>
       </div>
     </div>
 
-    <div class=" w-8 h-8  bg-[#34A0A4] fixed bottom-10 right-10 flex items-center justify-center "><a href="#first">UP</a></div>
+    <button
+      class="w-8 h-8 bg-[#34A0A4] fixed bottom-10 right-10 flex items-center justify-center"
+    >
+      <a href="#top">UP</a>
+    </button>
   </body>
 </html>
